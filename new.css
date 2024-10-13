@@ -19,7 +19,8 @@ body {
 .postcard {
   width: 80%; /* Ancho relativo al contenedor */
   height: auto; /* Altura automática para mantener la proporción */
-  background: rgba(94, 100, 137, 0.101);
+  background:  #79c2d0;
+*/rgba(94, 100, 137, 0.101);*/
   margin: 2em auto; /* Margen automático para centrar */
   border-radius: 2%;
   display: flex;
