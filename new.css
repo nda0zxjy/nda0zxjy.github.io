@@ -10,7 +10,8 @@ body {
     font-family: "Varela Round", "Quicksand", sans-serif;
     background: url(img.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    background-color: black; 
     margin: 0; /* Quita el margen por defecto */
     padding: 0; /* Quita el padding por defecto */
 }
@@ -18,7 +19,7 @@ body {
 .postcard {
   width: 80%; /* Ancho relativo al contenedor */
   height: auto; /* Altura automática para mantener la proporción */
-  background: rgb(118, 134, 240);
+  background: rgba(94, 100, 137, 0.101);
   margin: 2em auto; /* Margen automático para centrar */
   border-radius: 2%;
   display: flex;
@@ -88,12 +89,12 @@ footer {
   font-family: "Varela Round", "Quicksand", sans-serif;
   color: rgb(118, 134, 240);
 }
-
+*/
 footer p {
-  font-size: 4vw; /* Tamaño de fuente relativo 
+  font-size: 4vw; /* Tamaño de fuente relativo */
   letter-spacing: 1px;
 }
-*/
+
 p span {
   font-size: 6vw; /* Tamaño de fuente relativo */
   font-weight: 600;
