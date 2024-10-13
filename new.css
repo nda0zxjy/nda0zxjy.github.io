@@ -16,10 +16,10 @@ body {
     padding: 0; /* Quita el padding por defecto */
 }
 
-.postcard, .postcard1 {
+.postcard {
   width: 80%; /* Ancho relativo al contenedor */
   height: auto; /* Altura automática para mantener la proporción */
-  background: rgba(255, 255, 255, 0.101);
+  background: rgba(13, 8, 165, 0.271);
   margin: 2em auto; /* Margen automático para centrar */
   border-radius: 2%;
   display: flex;
@@ -29,6 +29,21 @@ body {
   transform: rotate(2.5deg);
   transition: all 0.5s ease;
 }
+ .postcard1 {
+  width: 80%; /* Ancho relativo al contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  background: #94c0f55d;
+  margin: 2em auto; /* Margen automático para centrar */
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  transform: rotate(2.5deg);
+  transition: all 0.5s ease;
+}
+
+
 
 h1 {
   text-align: center;
@@ -64,7 +79,7 @@ p span {
   font-size: 6vw; /* Tamaño de fuente relativo */
   font-weight: 600;
   text-shadow: 0 0 20px rgb(255, 255, 255);
-  color: #800020;
+  color: #80007c;
 }
 
 p {
